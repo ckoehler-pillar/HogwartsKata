@@ -3,6 +3,12 @@ hogwartsApp.factory('catalogRepository', function() {
 var catalogDataDetails =
 [
 {
+  name: "Oxtail Philosophy",
+  professor: "Haskins Sinistra",
+  description: "Speed 2 Value Kool Aid",
+  equipment: ["Story Maps", "User Stories"],
+},
+{
   name: "Astronomy",
   professor: "Aurora Sinistra",
   description: "During the first year of studies at Hogwarts, students must study the night skies through their telescopes every Wednesday at midnight and learn the different names of the stars and the movements of the planets.",
@@ -104,6 +110,7 @@ var catalogData = [
     {id: "HERB201", name: "Herbology", startTime: new Date(0,0,0,14), professor: "Pomona Sprout", credits: 4 },
     {id: "HM101", name: "History of Magic", startTime: new Date(0,0,0,11), professor: "Cuthbert Binns", credits: 3 },
     {id: "MUG101", name: "Muggle Studies", startTime: new Date(0,0,0,9), professor: "Alecto Carrow", credits: 2 },
+    {id: "OXT101", name: "Oxtail Philosophy", startTime: new Date(0,0,0,9), professor: "Haskins Sinistra", credits: 6 },
     {id: "POT108", name: "Potions", startTime: new Date(0,0,0,15), professor: "Severus Snape", credits: 4 },
     {id: "TRN205", name: "Transfiguration", startTime: new Date(0,0,0,13), professor: "Minerva McGonagall", credits: 4 }
 ];
